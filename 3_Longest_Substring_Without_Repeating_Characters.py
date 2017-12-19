@@ -48,15 +48,16 @@ class Solution:
         print(max_length)
         return max_length
         """
+
         left, max_length, right = 0, 0, 0
         str = ""
-
         for right in range(len(s)):
             if s[right] not in str:
                 str += s[right]
                 if len(str) > max_length:
                     max_length = len(str)
             else:
+                #删除重复字符之前的字符
                 str += s[right]
                 str = str[str.index(s[right]) + 1:]
                 left += 1

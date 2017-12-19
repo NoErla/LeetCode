@@ -69,7 +69,7 @@ class Solution:
 
         return result.next
 
-        """
+        """       
         out = l1
         it = l1  # iterator
         ptr = l1
