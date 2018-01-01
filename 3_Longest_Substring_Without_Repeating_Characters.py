@@ -63,5 +63,5 @@ class Solution:
                 left += 1
         print(max_length)
         return max_length
-Solution.lengthOfLongestSubstring("123456")
+Solution.lengthOfLongestSubstring("dvdf")
 #aab dvdf pwwkew
