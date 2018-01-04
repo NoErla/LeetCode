@@ -5,6 +5,7 @@ Given a list of non-negative integers representing the amount of money of each h
 """
 
 class Solution(object):
+    #dp
     def rob(self, nums):
         """
         :type nums: List[int]
